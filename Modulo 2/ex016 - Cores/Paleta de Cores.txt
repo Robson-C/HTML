@@ -1,0 +1,19 @@
+Cores primária - Amarelo, Vermelho e Azul
+Cores secundárias - Laranja, Violata e Verde
+Cores terciárias(Nome da cor primária e complementa com secundária)
+- Amarelo-esverdeado, Amarelo-alaranjado, Vermelho-alaranjado, Vermelho-arroxeado, Azul-arroxeado, Azul-esverdeado
+
+Cores quentes - Amarelo, Amarelo-alaranjado, Laranja, Vermelho-alaranjado, Vermelho, Vermelho-arroxeado
+Cores frias -  Amarelo-esverdeado, Verde, Azul-esverdeado, Azul, Azul-arroxeado e Violeta
+
+Paleta de cores para um site vai de 3 a 5 cores + preto/branco
+Em um site a cor primária é a mais usada na logo
+
+Técnicas de Paletas
+Cores Complementares = cores constrastantes - outro lado da paleta
+Cores Análogas = cores que combinam - cores antes/depois
+Cores Análogas Complementares - pega as cores antes/depois e a do outro lado
+Cores Análogas Relacionadas - Pega a cor antes OU depois, pula uma cor e pega a próxima
+Cores Intercaladas - Pega cor e pula de 1 ou 2 cores e pega, pula de novo e pega, sempre pulando mesma quantia de cores
+Cores Triádicas - Sempre pula 3 cores
+Monocromia/Degrade - Apenas 1 core no site, mudando apenas saturação e brilho

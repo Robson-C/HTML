@@ -1,0 +1,16 @@
+Caixas são o local que ficam os elementos de HTML
+
+em <h1>Olá, mundo!</h1>, o Olá, mundo! está dento da caixa h1.
+
+As medidas de box são:
+height = altura, por padrão é a altura minima para caber o elemento
+width = largura, por padrão é a altura minima para caber o elemento
+border = uma linha que circula nossa caixa(box)
+padding = espaço interno entre o elemento e o border
+margin = espaço externo da borda, um espaço entre as Caixas
+outline = uma
+====================================================================
+
+Exitem 2 tipos de Caixas
+box-level(div) = uma caixa do tipo box-level sempre inicia na proxíma linha e sempre usa 100 width
+inline-level(span) = uma caixa do tipo inline-level continua na mesma linha se couber e só ocupa o espaço necessario

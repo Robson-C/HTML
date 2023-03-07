@@ -1,0 +1,30 @@
+Tipografia Anatomia
+Altura x = Altura das letras minúsculas
+Altura das Maiúsculas = Altura das Maiúsculas
+Ascendente = Altura das minúsculas que passam acima da altura-x
+Descendente = Altura das minúsculas que passam abaixo da altura-x
+Corpo = Altura completa da letras, é oque pe definido como altura no css
+--------------------------------------------------------------------------------------------------------------------------
+
+Glifo é uma letra única, letra minúsculas é um glifo e a mesma letra maiúsculas é outro glifo, um conjunto de glifos é chamado de fonte.
+Um glifo pode ter conjunto, o mesmo glifo com variações, exemplo negrito, isso se chama família.
+--------------------------------------------------------------------------------------------------------------------------
+
+Serifa 
+- Um tipo de fonte que tem um tracinho nos contornos finais das letras
+- Sua importância se deve ao cerebro criar um padrão seguindo as serifas para identificação dos tamanhos das letras
+
+Sans-serif
+- Simplismente os tipos de fonte que não tem serifa
+
+Monoespaçadas
+- Toda fonte monoespaçadas pode ser sans-serif ou serifa, oque a define é que todas as letras tem a mesma largura
+
+Handwriting
+- Uma fonte que tenta simular a caligrafia humana, para parecer escrito a mão
+
+Dysplay
+- Fontes comemorativas, são fontes que não segue um padrão específico, as vezes tem até símbolos nessas fontes
+--------------------------------------------------------------------------------------------------------------------------
+
+Recomendação para textos longos em sites é sans-serif

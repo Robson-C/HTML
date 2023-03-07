@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áudio</title>
+</head>
+<body>
+    
+    <h1>Reproduzindo Áudio</h1><!-- Ele faz igual a imagem, tenta carregar o primeiro e caso não funcione vai descendo -->
+    <p>A maneira simples é: </p>
+    <audio src="midia/Music.mp3" controls></audio>
+
+    <p>Ou de um jeito mais completo, ele testa vários formatos para que tenha compatibilidade com mais navegadores:</p>
+    <audio preload="metadata" autoplay controls loop> <!-- preload = oque carrega, não deixar auto; controls = botões; loop = ficar repetindo, não é legal; autoplay = não vi funcionando -->
+        <source src="midia/Music.mp3" type="audio/mpeg">
+        <source src="midia/Music.ogg" type="audio/ogg">
+        <source src="midia/Music.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/Music.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+    
+</body>
+</html>
