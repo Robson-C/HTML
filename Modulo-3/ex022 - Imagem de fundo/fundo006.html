@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #container {
+            position: relative;
+            height: 500px;
+            padding: 10px;
+            background-color: purple;
+        }
+        #conteudo {
+            position: absolute; /*pra poder usar as propriedades top e left*/
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /*isso serve pra mudar o ponto de referencia do conteudo de top left pra center center*/
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+    
+</body>
+</html>

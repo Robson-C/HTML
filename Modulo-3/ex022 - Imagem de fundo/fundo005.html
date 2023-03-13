@@ -8,16 +8,23 @@
     <style>
         body {
             height: 100vh;
-            background-color: black;
-            background-image: url('imagens/wallpaper002.jpg');
-            background-position: center center;
-            background-repeat: repeat-y;
-            background-size: cover;
+            background-color: black; /*Cor de fundo, só aparece caso demore carregar a imagem abaixo*/
+            background-image: url('imagens/wallpaper002.jpg'); /*Não é uma imagem do conteúdo, apenas de fundo*/
+            background-position: center center; /*Posicionando de onde fica o foco na imagem - Coluna Linha*/
+            background-repeat: no-repeat; /*Repetição da imagem caso ela não ocupe o espaço inteiro*/
+            background-size: cover; /*Força imagem ocupar o espaço inteiro da página*/
+            background-attachment: fixed; /*Trava a imagem no lugar, rola apenas o conteúdo mas não a imagem*/
+            
+            /*background shorthand - versão curta
+                color > image > position > repeat > attachment
+                na versão curta falta o sizer - cover, por hora melhor fazer todas as linhas
+                background: black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;
+            */
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
