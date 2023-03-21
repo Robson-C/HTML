@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         caption {
             font-size: 1.5em;
@@ -23,15 +24,22 @@
             border: 1px solid black;
             padding: 10px;
         }
-        td.num{
-            text-align: right;
-        }
         thead, tfoot {
             background-color: gray;
             color: white;
         }
+        thead> tr> th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+            border: 1px solid black;
+        }
+
         tbody > tr:nth-child(2n) {
             background-color: lightgray;
+        }
+        td.num{
+            text-align: right;
         }
     </style>
 </head>
