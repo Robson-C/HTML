@@ -1,0 +1,10 @@
+flex-grow: 0; /*Padrão*/
+/*Habilidade de um flex item crescer, se colocar 1 todos tentaram ter o mesmo tamanho*/
+/*Se colocar algum flex item com valor 2, ele tentaram ter 2 vezes o tamanho dos outros*/
+
+flex-shrink: 1; /*Padrao, permite redução para caber no container*/
+/*Capacidade de redução do flex item, com 0 não permite redução*/
+/*Se 2 ele ficara 2 vezes menor que outros flex itens no container*/
+
+flex-basis: auto; /*Padrão, se adapta ao tamanho do conteúdo*/
+/*Se 0 ele tentará manter todos com mesma largura*/
